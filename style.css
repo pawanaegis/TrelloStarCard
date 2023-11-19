@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .stars {
+    display: flex;
+    flex-direction: row-reverse;
+    cursor: pointer;
+  }
+  .star {
+    font-size: 2em;
+    padding: 0.1em;
+    transition: color 0.3s ease;
+  }
+  .star:hover,
+  .star:hover ~ .star {
+    color: gold;
+  }
+  #submit-btn {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  #submit-btn:hover {
+    background-color: #008cba;
+    color: white;
+  }
+  
+  h1 {
+    color: #2800ff;
+    display: flex;
+    justify-content: center;
+  }
+  
