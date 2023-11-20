@@ -48,6 +48,9 @@ TrelloPowerUp.initialize({
         {
           icon: star ? STAR_ICON : WHITE_STAR,
           text:`${star} STAR` || "No Ratings!",
+          image:{
+            url: STAR_ICON
+          },
           color: star ? "yellow" : "white",
           callback: function (t) {
             return t.popup({
